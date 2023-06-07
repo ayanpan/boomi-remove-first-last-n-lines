@@ -17,7 +17,7 @@ for( int i = 0; i < dataContext.getDataCount(); i++ ) {
     // Remove the first 12 lines
     lines = lines.drop(12)
 
-    // Remove the last 7 lines
+    // Remove the last 6 lines
     lines = lines.dropRight(6)
     
     // Join the lines
